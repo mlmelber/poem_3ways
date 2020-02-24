@@ -3,41 +3,44 @@ body {
     background-color: white;
     margin: 0;
     padding: 0;
-}
+
+    width: 97vw;
+    margin: auto;
+    margin-top: 10px;
+  }
 
 h1 {
     font-family: 'Roboto Condensed', sans-serif;
-    text-align: center;
-    margin: 0;
-    font-size: 4vw;
-    line-height: 4vw;
+    text-align: right;
+    font-weight: bold;
+    letter-spacing: 30px;
+
+    margin-top: 100px;
+    margin-right: 170px;
+    font-size: 4.5vw;
+    line-height: 4.5vw;
+  }
+
+  h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: right;
+    
+    margin-right: 200px;
+    color: #707070;
+    font-size: 2.4vw;
+    line-height: 2.4vw;
   }
 
   .maincontainer {
       width: 100vw;
       height: 100vh;
       margin: auto;
-
-      display: grid;
-      grid-template-areas:
-      "head head"
-      "col-left  col-right"
-      "foot  foot";
-    grid-template-rows: 100px 1fr 100px;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 40px;
-  }
-  
-  .header {
-    grid-area: head;
-  }
-
-  .maincontainer {
-      background-color: white;
   }
     
   .headerbar {
-      background-color: white;
+      font-size: 4em;
+      box-shadow: inset 0px -55px 0px -22px #EFFF2B;
+      margin-left: 280px;
   }
 
   .headerbar_yellowstrip {
@@ -45,6 +48,20 @@ h1 {
     box-shadow: inset 0px -34px 0px -4px #EFFF2B;
   }
 
+  .lastverse {
+    color: #707070;
+    text-align: right;
+  }
+
+  .poem {
+    color: #707070;
+    line-height: 10px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-left: 50px;
+    margin-right: 350px;
+  }
 
 @media screen and (max-width: 767px) {
     body {
