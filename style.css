@@ -44,14 +44,18 @@ h1 {
       box-shadow: inset 0px -60px 0px -30px #EFFF2B;
       margin-left: 280px;
   }
-
+  .stanza4 {
+    background-color: none;
+  }
   .lastverse {
     color: #707070;
-    text-align: left;
-    line-height: 10px;
+    text-align: right;
+    line-height: 20px;
     font-size: 1.2vw;
 
-    margin-left: 945px;
+    margin-left: 45px;
+    font-style: italic;
+    font-style: bold;
   }
 
   .poem {
@@ -60,8 +64,9 @@ h1 {
     font-size: 1.2vw;
 
     display: grid;
-    grid-template-columns: .5fr .5fr .5fr .5fr 1fr;
-    margin-left: 60px;
+    grid-template-columns: .5fr 1fr;
+    width: 75vw;;
+    margin-left: 160px;
     margin-right: 5px;
   }
 
@@ -75,9 +80,9 @@ h1 {
     font-weight: lighter;
 
     transform: rotate(-90deg);
-    text-align: right;
-    margin-left: 1160px;
     position: absolute;
+    right: -38px;
+    bottom: 97px;
   }
 
 
