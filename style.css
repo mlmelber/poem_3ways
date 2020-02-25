@@ -92,5 +92,35 @@ h1 {
     body {
       background-color: white;
     }
+    h1 {
+      font-family:  'Roboto Condensed', sans-serif;
+      text-align: center;
+      margin-right: 100px;
+      margin-top: 300px;
+
+      letter-spacing: normal;
+      font-style: italic;
+      font-style: bold;
+    }
+
+    h2 {
+      font-family: 'Roboto Condensed', sans-serif;
+      text-align: right;
+      font-weight: lighter;
+      
+      margin-right: 85px;
+      color: black;
+      font-size: 2.4vw;
+      line-height: 1.5vw;
+    }
+
+    .headerbar {
+      background-color: #EFFF2B;
+  }
+
+    .poem {
+    }
+    .stanza
+    
   }
   
