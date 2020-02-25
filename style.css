@@ -256,11 +256,10 @@ h1 {
       font-size: 1.3vw;
       font-weight: lighter;
   
-      transform: rotate(-90deg);
-      float: left;
       position: absolute;
-      left: -860px;
-      right: 100px;
+      right: 700px;
+      left: -170px;
+      bottom: 130px;
     }
 
     .line {
