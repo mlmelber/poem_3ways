@@ -50,12 +50,14 @@ h1 {
   .lastverse {
     color: #707070;
     text-align: right;
-    line-height: 20px;
+    line-height: 22px;
     font-size: 1.2vw;
 
     margin-left: 45px;
     font-style: italic;
-    font-style: bold;
+    margin-top: 80px;
+    margin-left: 340px;
+    text-align: left;
   }
 
   .poem {
@@ -81,8 +83,8 @@ h1 {
 
     transform: rotate(-90deg);
     position: absolute;
-    right: -38px;
-    bottom: 97px;
+    right: -65px;
+    bottom: 0px;
   }
 
 
