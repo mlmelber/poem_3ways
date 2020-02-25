@@ -84,9 +84,69 @@ h1 {
 @media screen and (max-width: 767px) {
     body {
       background-color: white;
+      border: 8px solid #EFFF2B;
+      margin: auto;
+      padding: auto;
     }
+
+    h1 {
+      font-family:  'Roboto Condensed', sans-serif;
+      text-align: right;
+      margin-top: 100px;
+      margin-right: 400px;
+      font-size: 6vw;
+
+      letter-spacing: normal;
+      font-style: bold;
+      line-height: 30px;
+    }
+
+    h2 {
+      font-family: 'Roboto Condensed', sans-serif;
+      text-align: right;
+      font-weight: normal;
+      
+      color: black;
+      font-size: 3vw;
+      line-height: 1.5vw;
+
+      transform: rotate(-90deg);
+      float: right;
+    }
+
+    .headerbar {
+      box-shadow: none;
+  }
+
+  .line {
+    position: absolute;
+    transform: rotate(90deg);
+    align-content: center;
+    margin-left: 50vw;
+  }
+
+  .sideinfo {
+    font-size: .75vw;
+    font-weight: lighter;
+
+    text-align: center;
+    position: absolute;
+    margin-bottom: 10px;
+  }
+
+  .poem {
+    color: #707070;
+    line-height: 10px;
+    font-size: 1.2vw;
+
+    display: grid;
+    grid-template-columns: none;
+    grid-template-rows: 190px;
+  }
+
   }
   
+
   /* Tablet Styles */
   @media screen and (max-width: 1024px) and (min-width: 768px) {
     body {
@@ -139,6 +199,7 @@ h1 {
       font-weight: lighter;
   
       transform: rotate(-90deg);
+      float: left;
     }
 
     .line {
