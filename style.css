@@ -36,7 +36,7 @@ h1 {
   .maincontainer {
       width: 100vw;
       height: 100vh;
-      margin: auto;
+      margin: 0;
   }
     
   .headerbar {
@@ -55,6 +55,7 @@ h1 {
 
     margin-left: 45px;
     font-style: italic;
+    font-weight: bold;
     margin-top: 80px;
     margin-left: 340px;
     text-align: left;
@@ -91,7 +92,7 @@ h1 {
 @media screen and (max-width: 767px) {
     body {
       background-color: white;
-      border: 8px solid #EFFF2B;
+      border: 10px solid #EFFF2B;
       margin: auto;
       padding: auto;
     }
@@ -162,8 +163,7 @@ h1 {
     h1 {
       font-family:  'Roboto Condensed', sans-serif;
       text-align: center;
-      margin-right: 100px;
-      margin-top: 300px;
+      margin-right: 183px;
 
       letter-spacing: normal;
       font-style: italic;
@@ -175,14 +175,26 @@ h1 {
       text-align: right;
       font-weight: lighter;
       
-      margin-right: 240px;
+      margin-top: 0px;
       color: black;
       font-size: 2.4vw;
       line-height: 1.5vw;
+
+      position: absolute;
+      top: 320px;
+      right: 100px;
+    }
+
+    .maincontainer {
+      margin: 0;
     }
 
     .headerbar {
       box-shadow: none;
+      position: absolute;
+      margin-top: 0;
+      top: 170px;
+      right: 0;
   }
     .headerbar_yellowstrip {
       background-color: #EFFF2B;
@@ -201,17 +213,59 @@ h1 {
       float: left;
     }
 
+    .poem {
+      color: #707070;
+  
+      display: grid;
+      grid-template-columns: 1fr;
+      width: 75vw;;
+      line-height: 5px;
+      font-size: 1.5vw;
+    }
+
+    .stanza_1 {
+      text-align: right;
+      margin-right: 300px;
+    }
+    .stanza_2 {
+      text-align: right;
+      margin-right: 300px;
+      padding-bottom: 80px;
+    }
+    .stanza_3 {
+      text-align: left;
+      margin-left: 340px;
+      padding-top: 100px;
+    }
+    .stanza_4 {
+      text-align: left;
+      margin-left: 340px;
+    }
+
+    .lastverse {
+
+      font-style: normal;
+      margin-top: 0px;
+      margin-left: 0px;
+      text-align: left;
+      font-weight: normal;
+      font-size: 1.5vw;
+    }
+
     .sideinfo {
-      font-size: .75vw;
+      font-size: 1.3vw;
       font-weight: lighter;
   
       transform: rotate(-90deg);
       float: left;
+      position: absolute;
+      left: -860px;
+      right: 100px;
     }
 
     .line {
       position: absolute;
-      top: 690px;
+      top: 410px;
       margin-left: 40px;
     }
     
