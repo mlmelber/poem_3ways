@@ -22,6 +22,10 @@ h1 {
     line-height: 4.5vw;
   }
 
+  .title2 {
+    display: none;
+  }
+
   h2 {
     font-family: 'Roboto Condensed', sans-serif;
     text-align: right;
@@ -93,21 +97,34 @@ h1 {
     body {
       background-color: white;
       border: 13px solid #EFFF2B;
-      margin: auto;
-      padding: auto;
+      height: 900px;
     }
 
     h1 {
+      display: none;
+    }
+
+    .title2 {
+      display: inline;
       font-family:  'Roboto Condensed', sans-serif;
       text-align: right;
+      font-weight: bold;
+
+      position: absolute;
+      left: 170px;
+      font-size: 6.5vw;
+      padding-top: 105px;
+    }
+    
+    .borderbox {
+      background-color: none;
+      border: 1.4px solid black;
+      height: 130px;
+      width: 350px;
+
+      margin-left: -50px;
       margin-top: 100px;
       position: absolute;
-      left: 100px;
-      font-size: 6vw;
-
-      letter-spacing: normal;
-      font-style: bold;
-      line-height: 50px;
     }
 
     h2 {
@@ -115,13 +132,17 @@ h1 {
       text-align: right;
       font-weight: normal;
       
-      color: black;
-      font-size: 3vw;
+      color: #292929;
+      font-size: 3.5vw;
       line-height: 1.5vw;
 
       transform: rotate(-90deg);
       float: right;
       margin-right: 0;
+      margin-top: 10px;
+      position: absolute;
+      top: 100px;
+      left: 82vw;
       
     }
 
@@ -141,23 +162,25 @@ h1 {
   }
 
   .sideinfo {
-    font-size: .75vw;
+    font-size: 1.5vw;
     font-weight: lighter;
-
-    text-align: center;
+    transform: none;
     position: absolute;
-    margin-bottom: 10px;
+    right: 36vw;
+    top: 900px;
   }
 
   .poem {
     color: #707070;
     line-height: 6px;
-    font-size: 2.5vw;
+    font-size: 3vw;
 
     display: grid;
     grid-template-columns: none;
     position: absolute;
-    top: 160px;
+    top: 300px;
+    left: 30vw;
+    margin-left: 0;
   }
 
   .lastverse {
@@ -167,7 +190,7 @@ h1 {
     margin-left: 0px;
     text-align: left;
     font-weight: normal;
-    font-size: 2.5vw;
+    font-size: 3vw;
   }
 
   }
